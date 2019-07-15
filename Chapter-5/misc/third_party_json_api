@@ -1,0 +1,20 @@
+Chuck Norris joke:
+
+doc: http://www.icndb.com/api/
+random: http://api.icndb.com/jokes/random
+specific: http://api.icndb.com/jokes/412
+
+
+Github:
+
+doc: https://developer.github.com/v3/
+search: https://api.github.com/search/repositories?q=foobar&sort=stars
+
+
+The Cat Api:
+
+doc: https://docs.thecatapi.com/
+random: https://api.thecatapi.com/v1/images/search
+5 random pictures: https://api.thecatapi.com/v1/images/search?limit=5
+
+The Cat Api in Postman: https://documenter.getpostman.com/view/5578104/RWgqUxxh

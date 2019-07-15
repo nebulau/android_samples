@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/record">
+
+    <SurfaceView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/light_status"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/light_off" />
+
+        <ImageView
+            android:id="@+id/reverse_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/reverse" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/take_photo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@mipmap/take_photo" />
+
+        <ImageView
+            android:id="@+id/start_record"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/start_record"
+            android:layout_weight="1"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/upload"
+            android:layout_weight="1"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:id="@+id/zoom"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/zoom"
+            android:layout_weight="1"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

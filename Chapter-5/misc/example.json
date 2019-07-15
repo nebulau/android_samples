@@ -1,0 +1,13 @@
+{
+        "temp": {
+                "min": 11.34,
+                "max": 19.01
+        },
+        "weather": {
+                "id": 801,
+                "condition": "Clouds",
+                "description": null
+        },
+        "success": true,
+        "notification_user_id": ["Adam", "Bob", "John"]
+}
